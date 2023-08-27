@@ -1,3 +1,5 @@
+
+/****************dibujos**********/
 /*
 body {
     display: flex;
@@ -202,6 +204,9 @@ body {
     left: 35px;
   }
   */
+
+/*********************vision 360**************/
+
   /*
   .carousel-item img {
     width: 100%;
@@ -209,6 +214,8 @@ body {
     object-fit: cover;
   }
   */
+
+  /*****************efecto mirador***************/
   body, html {
     margin: 0;
     padding: 0;
