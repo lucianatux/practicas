@@ -216,6 +216,7 @@ body {
   */
 
   /*****************efecto mirador***************/
+  /*
   body, html {
     margin: 0;
     padding: 0;
@@ -245,9 +246,30 @@ body {
     display: block;
     max-width: 100%;
     height: 100%;
-    /*mix-blend-mode: normal;*/
+    *mix-blend-mode: normal;*
     opacity: 0.1;
     background-blend-mode:darken;
     filter: opacity(100%);
+    transition: transform 0.3s ease-in-out; * Agrega una transición suave *
+
+  }
+
+  .frame:hover{
+    transform: scale(2.1); * Cambia la escala al 110% en el estado de hover *
+  }
+*/
+
+  /*****************efecto zoom***************/
+
+/*
+  .zoom-effect {
+    transition: transform 0.3s ease-in-out;
   }
   
+  .zoomed {
+    transform: scale(0.1);
+  }
+ */ 
+ 
+
+
